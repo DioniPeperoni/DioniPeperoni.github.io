@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+h1 {
+	font-family: "Arvo";
+	font-weight: normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-family: "Arvo";
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	font-family: Oswald;
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+center {
+	margin: 0 auto;
+}
+.content {
+	margin: 0 auto;
+	width: 960px;
+}
+.clear {
+	clear: both;
+}
+#nav {
+	width: 410px;
+	float: right;
+	margin-top: 20px;
+}
+#logo a {
+  background: url('');
+	text-decoration: none;
+	float: left;
+	font-size: 30px;
+	margin-top: 20px;
+	color: #fff;
+	font-family: "Wellfleet";
+	font-weight: bold;
+}
+#nav ul {
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+}
+#nav li {
+	margin-top: 9px;
+	float: left;
+	padding-left: 21px;
+}
+#nav li a {
+	color: #fff;
+	opacity: 0.6;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: 'Wellfleet';
+}
+#nav li .active {
+	color: #fff;
+	opacity: 1;
+	border-bottom: 2px solid #fff;
+}
+#nav li a:hover {
+	color: #fff;
+	opacity: 1;
+}
+.quotes {
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: left;
+	margin: 50px auto;
+}
+.author_name_white {
+	font-family: "Wellfleet";
+	margin: 70px 0 0 75px;
+	color: #fff;
+	font-size: 20px;
+}
+.author_name_gray {
+	font-family: "Wellfleet";
+	margin: 70px 0 0 75px;
+	color: #94a4a4;
+	font-size: 20px;
+}
+.quotes_container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#slide1 {
+	background: url("headshot.jpg") 0 no-repeat fixed;
+	background-color: black;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 200px 0 0;
+	background-size: contain;
+	background-position: center;
+}
+#slide2 {
+	background-color: #fff;
+	color: #333333;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+#slide3 {
+	background: url('https://i.pinimg.com/originals/fc/54/dd/fc54dda9f12978bc7873db3f65e5eea4.jpg') 50% 0 no-repeat fixed ;
+	color: #fff;
+	height: 600px;
+	padding: 270px 0 0 0;
+	background-size: 2000px 1000px;
+}
+#slide4 {
+	background-color: #fff;
+	color: #333333;
+	height: 300px;
+	padding: 200px 0;
+}
+#slide5 {
+	background: url('http://www.itstheship.com/wp-content/uploads/2017/08/Joji.jpg') 50% 0 no-repeat fixed;
+	height: 500px;
+	margin: 0 auto;
+	padding: 250px 0 0 0;
+	color: #fff;
+	background-size:2000px 1000px;
+	background-position: center;
+}
